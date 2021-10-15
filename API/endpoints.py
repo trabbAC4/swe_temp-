@@ -63,3 +63,8 @@ class CreateUser(Resource):
         this method adds user to the chatroom
         """
         return username
+
+@api.route('/candybars')
+class CandyBars(Resource)
+    def get(self)
+        return username
