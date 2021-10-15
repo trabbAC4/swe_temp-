@@ -64,7 +64,8 @@ class CreateUser(Resource):
         """
         return username
 
+
 @api.route('/candybars')
-class CandyBars(Resource)
-    def get(self)
-        return username
+class CandyBars(Resource):
+    def get(self):
+        return 0
